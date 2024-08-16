@@ -1,0 +1,924 @@
+*{
+    font-family: sans-serif;
+    background-color: #2F7693;
+}
+@media screen and (min-width: 1000px){
+    .n1{
+        width: 100%;
+        height: 50px;
+        opacity: 1;
+        position: relative;
+        .fh4{
+            position: absolute;
+            left: 5%;
+            top: 20%;
+            color: white;
+        }
+        .u1{
+            position: absolute;
+            left: 40%;
+            top: 20%;
+            list-style: none;
+            display: inline-flex;
+            li{
+                color: white;
+                margin-right: 10px;
+            }
+        }
+        .uu1, .b1, .b2{
+            display: none;
+        }
+        .b3{
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            color: black;
+        }
+    }
+    .br{
+        width: 100%;
+        height: 40px;
+        opacity: 1;
+    }
+    .d1{
+        width: 100%;
+        height: 380px;
+        opacity: 1;
+        position: relative;
+        .cont1{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            opacity: 1;
+            .c11, .c12{
+                width: 50%;
+                height: 100%;
+                opacity: 1;
+            }
+            .c11{
+                position: absolute;
+                left: 0%;
+                .fh1, .p1, .p2{
+                    color: white;
+                }
+                .p1{
+                    position: absolute;
+                    top: 40%;
+                }
+                .p2{
+                    position: absolute;
+                    top: 60%;
+                }
+                .b4{
+                    position: absolute;
+                    left: 5%;
+                    bottom: 2%;
+                }
+                .b5{
+                    position: absolute;
+                    left: 35%;
+                    bottom: 2%;
+                }
+            }
+            .c12{
+                position: absolute;
+                right: 0%;
+                .im1{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    border: 2px solid white;
+                }
+            }
+        }
+    }
+    .d2{
+        width: 100%;
+        height: 30px;
+        opacity: 1;
+        position: relative;
+        .cont2{
+            width: 52%;
+            height: 100%;
+            position: absolute;
+            left: 24%;
+            opacity: 1;
+            .sh4{
+                color: white;
+            }
+        }
+    }
+    .d3{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        opacity: 1;
+        .pp1{
+            width: 80%;
+            height: 100%;
+            opacity: 1;
+            position: absolute;
+            left: 10%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            .item{
+                width: 25%;
+                height: 100%;
+                position: absolute;
+                .im2{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    left: 45%;
+                    top: 0%;
+                }
+                .th4{
+                    color: white;
+                }
+                .p3{
+                    position: absolute;
+                    left: 5%;
+                    bottom: 0.5%;
+                    text-align: center;
+                    color: white;
+                }
+            }
+            .item1{
+                position: absolute;
+                left: 0%;
+                .th4{
+                    position: absolute;
+                    top: 25%;
+                    left: 35%;
+                }
+            }
+            .item2{
+                position: absolute;
+                left: 25%;
+                .th4{
+                    position: absolute;
+                    top: 25%;
+                    left: 18%;
+                }
+            }
+            .item3{
+                position: absolute;
+                left: 50%;
+                .th4{
+                    position: absolute;
+                    top: 25%;
+                    left: 25%;
+                }
+            }
+            .item4{
+                position: absolute;
+                left: 75%;
+                .th4{
+                    position: absolute;
+                    top: 25%;
+                    left: 20%;
+                }
+            }
+        }
+    }
+    .d4{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        opacity: 1;
+        .cont4{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            .c41, .c42{
+                width: 50%;
+                height: 100%;
+                opacity: 1;
+            }
+            .c41{
+                position: absolute;
+                left: 0%;
+                .im3{
+                    width: 98%;
+                    height: 100%;
+                    position: absolute;
+                    left: 1%;
+                    border-radius: 15px;
+                }
+            }
+            .c42{
+                position: absolute;
+                right: 0%;
+                .fih4, .p4{
+                    color: white;
+                }
+            }
+        }
+    }
+    .d5{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        opacity: 1;
+        .cont5{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            .c51, .c52{
+                width: 50%;
+                height: 100%;
+                opacity: 1;
+            }
+            .c51{
+                position: absolute;
+                left: 0%;
+                .fh3{
+                    font-size: 38px;
+                    color: white;
+                }
+                .p5{
+                    color: white;
+                }
+                .pp2{
+                    width: 90%;
+                    height: 40%;
+                    position: absolute;
+                    bottom: 0%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    opacity: 1;
+                    .itemm{
+                        width: 50%;
+                        height: 50%;
+                        opacity: 1;
+                    }
+                    .i1{
+                        position: absolute;
+                        left: 0%;
+                        top: 0%;
+                        .im5{
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 28%;
+                            top: 30%;
+                            color: white;
+                        }
+                    }
+                    .i2{
+                        position: absolute;
+                        right: 0%;
+                        top: 0%;
+                        .im5{
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 28%;
+                            top: 30%;
+                            color: white;
+                        }
+                    }
+                    .i3{
+                        position: absolute;
+                        left: 0%;
+                        bottom: 0%;
+                        .im5{
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 35%;
+                            top: 30%;
+                            color: white;
+                        }
+                    }
+                    .i4{
+                        position: absolute;
+                        right: 0%;
+                        bottom: 0%;
+                        .im5{
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 35%;
+                            top: 30%;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .c52{
+                position: absolute;
+                right: 0%;
+                .im4{
+                    width: 98%;
+                    height: 100%;
+                    position: absolute;
+                    left: 1%;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+    .d6{
+        width: 100%;
+        height: 70px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp3{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+                .pa{
+                    height: 100%;
+                    .sh3, .p7{
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .d7{
+        width: 100%;
+        height: 480px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp4{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+                .par{
+                    height: 100%;
+                    .im6{
+                        width: 96%;
+                        height: 60%;
+                        position: relative;
+                        left: 2%;
+                        border-radius: 15px;
+                    }
+                    .sih4, .p8{
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .d8{
+        width: 100%;
+        height: 80px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp5{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                .seh4, .p9{
+                    text-align: center;
+                    color: white;
+                }
+                .u2{
+                    list-style: none;
+                    li{
+                        text-align: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px){
+    .n1{
+        width: 100%;
+        height: 100px;
+        opacity: 1;
+        position: relative;
+        .fh4{
+            position: absolute;
+            left: 5%;
+            top: 25%;
+            color: white;
+            font-size: 35px;
+        }
+        .u1{
+            display: none;
+        }
+        .b1{
+            position: absolute;
+            right: 30%;
+            top: 15%;
+            font-size: 33px;
+            z-index: 2000;
+            color: black;
+        }
+        .uu1{
+            width: 25%;
+            height: 230%;
+            background-color: #708083;
+            border: 2px solid white;
+            border-radius: 15px;
+            position: absolute;
+            right: 30%;
+            top: 10%;
+            z-index: 2000;
+            display: none;
+            .u11{
+                list-style: none;
+                background-color: #708083;
+                li{
+                    background-color: #708083;
+                    color: white;
+                    margin-right: 10px;
+                    font-size: 33px;
+                }
+            }
+            .b2{
+                z-index: 2000;
+                position: absolute;
+                bottom: 2%;
+                left: 20%;
+                font-size: 33px;
+                color: black;
+            }
+        }
+        .b3{
+            position: absolute;
+            right: 2%;
+            top: 15%;
+            color: black;
+            font-size: 33px;
+        }
+    }
+    .br{
+        width: 100%;
+        height: 50px;
+        opacity: 1;
+    }
+    .d1{
+        width: 100%;
+        height: 1000px;
+        opacity: 1;
+        position: relative;
+        .cont1{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            opacity: 1;
+            .c11, .c12{
+                height: 50%;
+                width: 100%;
+                opacity: 1;
+            }
+            .c11{
+                position: absolute;
+                top: 0%;
+                .fh1, .p1, .p2{
+                    color: white;
+                }
+                .fh1{
+                    font-size: 40px;
+                }
+                .p1{
+                    position: absolute;
+                    top: 25%;
+                    font-size: 33px;
+                }
+                .p2{
+                    position: absolute;
+                    top: 50%;
+                    font-size: 33px;
+                }
+                .b4{
+                    position: absolute;
+                    left: 5%;
+                    bottom: 2%;
+                    font-size: 33px;
+                }
+                .b5{
+                    position: absolute;
+                    left: 35%;
+                    bottom: 2%;
+                    font-size: 33px;
+                }
+            }
+            .c12{
+                position: absolute;
+                bottom: 0%;
+                .im1{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    border: 2px solid white;
+                }
+            }
+        }
+    }
+    .d2{
+        width: 100%;
+        height: 90px;
+        opacity: 1;
+        position: relative;
+        .cont2{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            opacity: 1;
+            .sh4{
+                font-size: 35px;
+                text-align: center;
+            }
+        }
+    }
+    .d3{
+        width: 100%;
+        height: 900px;
+        position: relative;
+        opacity: 1;
+        .pp1{
+            width: 80%;
+            height: 100%;
+            opacity: 1;
+            position: absolute;
+            left: 10%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            .item{
+                width: 50%;
+                height: 50%;
+                position: absolute;
+                .im2{
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    left: 45%;
+                    top: 0%;
+                }
+                .th4{
+                    color: white;
+                    font-size: 35px;
+                }
+                .p3{
+                    position: absolute;
+                    left: 5%;
+                    bottom: 0.5%;
+                    text-align: center;
+                    color: white;
+                    font-size: 33px;
+                }
+            }
+            .item1{
+                position: absolute;
+                left: 0%;
+                top: 0%;
+                .th4{
+                    position: absolute;
+                    top: 18%;
+                    left: 35%;
+                }
+            }
+            .item2{
+                position: absolute;
+                right: 0%;
+                top: 0%;
+                .th4{
+                    position: absolute;
+                    top: 18%;
+                    left: 18%;
+                }
+            }
+            .item3{
+                position: absolute;
+                left: 0%;
+                bottom: 0%;
+                .th4{
+                    position: absolute;
+                    top: 18%;
+                    left: 25%;
+                }
+            }
+            .item4{
+                position: absolute;
+                right: 0%;
+                bottom: 0%;
+                .th4{
+                    position: absolute;
+                    top: 18%;
+                    left: 20%;
+                }
+            }
+        }
+    }
+    .d4{
+        width: 100%;
+        height: 1500px;
+        position: relative;
+        opacity: 1;
+        .cont4{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            .c41{
+                height: 54%;
+                width: 100%;
+                opacity: 1;
+                position: absolute;
+                top: 0%;
+                .im3{
+                    width: 98%;
+                    height: 100%;
+                    position: absolute;
+                    left: 1%;
+                    border-radius: 15px;
+                }
+            }
+            .c42{
+                height: 46%;
+                width: 100%;
+                opacity: 1;
+                position: absolute;
+                bottom: 0%;
+                .fih4{
+                    font-size: 35px;
+                    color: white;
+                }
+                .p4{
+                    font-size: 33px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+    }
+    .d5{
+        width: 100%;
+        height: 1200px;
+        position: relative;
+        opacity: 1;
+        .cont5{
+            width: 80%;
+            height: 100%;
+            position: absolute;
+            left: 10%;
+            .c51{
+                height: 46%;
+                width: 100%;
+                opacity: 1;
+                position: absolute;
+                top: 0%;
+                .fh3{
+                    font-size: 38px;
+                    color: white;
+                }
+                .p5{
+                    color: white;
+                    font-size: 33px;
+                }
+                .pp2{
+                    width: 90%;
+                    height: 40%;
+                    position: absolute;
+                    bottom: 0%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    opacity: 1;
+                    .itemm{
+                        width: 50%;
+                        height: 50%;
+                        opacity: 1;
+                    }
+                    .i1{
+                        position: absolute;
+                        left: 0%;
+                        top: 0%;
+                        .im5{
+                            width: 50px;
+                            height: 50px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 20%;
+                            top: 20%;
+                            color: white;
+                            font-size: 33px;
+                        }
+                    }
+                    .i2{
+                        position: absolute;
+                        right: 0%;
+                        top: 0%;
+                        .im5{
+                            width: 50px;
+                            height: 50px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 20%;
+                            top: 20%;
+                            color: white;
+                            font-size: 33px;
+                        }
+                    }
+                    .i3{
+                        position: absolute;
+                        left: 0%;
+                        bottom: 0%;
+                        .im5{
+                            width: 50px;
+                            height: 50px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 30%;
+                            top: 20%;
+                            color: white;
+                            font-size: 33px;
+                        }
+                    }
+                    .i4{
+                        position: absolute;
+                        right: 0%;
+                        bottom: 0%;
+                        .im5{
+                            width: 50px;
+                            height: 50px;
+                            position: absolute;
+                            left: 0%;
+                            top: 15%;
+                        }
+                        .p6{
+                            position: absolute;
+                            right: 35%;
+                            top: 20%;
+                            color: white;
+                            font-size: 33px;
+                        }
+                    }
+                }
+            }
+            .c52{
+                height: 54%;
+                width: 100%;
+                opacity: 1;
+                position: absolute;
+                bottom: 0%;
+                .im4{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+    .d6{
+        width: 100%;
+        height: 210px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp3{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                opacity: 1;
+                .pa{
+                    height: 100%;
+                    opacity: 1;
+                    .sh3{
+                        text-align: center;
+                        color: white;
+                        font-size: 35px;
+                    }
+                    .p7{
+                        text-align: center;
+                        color: white;
+                        font-size: 33px;
+                    }
+                }
+            }
+        }
+    }
+    .d7{
+        width: 100%;
+        height: 2750px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp4{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                .par{
+                    height: 100%;
+                    .im6{
+                        width: 100%;
+                        height: 60%;
+                        border-radius: 15px;
+                    }
+                    .sih4{
+                        text-align: center;
+                        color: white;
+                        font-size: 35px;
+                    }
+                    .p8{
+                        text-align: center;
+                        color: white;
+                        font-size: 33px;
+                    }
+                }
+            }
+        }
+    }
+    .d8{
+        width: 100%;
+        height: 330px;
+        opacity: 1;
+        .container{
+            width: 80%;
+            opacity: 1;
+            .pp5{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                opacity: 1;
+                .seh4{
+                    text-align: center;
+                    color: white;
+                    font-size: 35px;
+                }
+                .p9{
+                    text-align: center;
+                    color: white;
+                    font-size: 33px;
+                }
+                .u2{
+                    list-style: none;
+                    li{
+                        text-align: center;
+                        color: white;
+                        font-size: 33px;
+                    }
+                }
+            }
+        }
+    }
+}
